@@ -8,7 +8,7 @@ body {
 }
 
 #product-overview {
-    background: #ff1b68;
+    background: url("");
     width: 100%;
     height: 528px;
     padding: 10px;
@@ -22,10 +22,6 @@ body {
     color: white;
     font-family: 'Anton', sans-serif;
 }
-
-/* h1 {
-    font-family: sans-serif;
-} */
 
 .main-header {
 	width: 100%;
@@ -63,7 +59,7 @@ body {
 	margin: 0 16px;
 }
 
-/* adding a class to link is another solution */
+/* alternatively add a class to link */
 .main-nav__item a {
 	color: darkgreen;
 	text-decoration: none;
@@ -83,3 +79,16 @@ body {
 	color: azure;
 	border-bottom: 5px solid white;
 }
+
+.main-nav__item--cta a {
+	color: azure;
+	background: #ff1b68;
+	border-radius: 8px;
+	padding: 8px 16px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+	color: #ff1b68;
+	background: white;
+	border: none;
