@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 #product-overview {
@@ -18,6 +19,18 @@
 .section-title {
 	color: #2ddf5c;
 	text-align: center;
+=======
+#product-overview {
+    background: url("https://viralhare.com/wp-content/uploads/2018/05/freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+}
+
+.section-title {
+		color: #2ddf5c;
+		text-align: center;
+>>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 #product-overview h1 {
@@ -28,6 +41,7 @@
 	left: 3%;
 }
 
+<<<<<<< HEAD
 .plan__list {
 	width: 80%;
 	margin: auto;
@@ -68,6 +82,42 @@
 
 .plan--highlighted .plan__title {
 	color: white;
+=======
+.plan {
+	background-color: #d5ffdc;
+	text-align: center;
+	padding: 16px;
+	margin: 8px;
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.plan__annotation {
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	color: #2ddf5c;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.plan__title {
+	color: #0e4f1f;
+}
+
+.plan--highlighted {
+	background-color: #2ddf5c;
+	color: white;
+	box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.plan--highlighted .plan__title {
+	color: white;
+}
+
+.plan__price {
+	color: rgb(168, 168, 168);
+>>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 .plan--highlighted .plan__price {
@@ -78,6 +128,7 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+<<<<<<< HEAD
 }
 
 .plan__feature {
@@ -128,3 +179,51 @@
 	font-family: sans-serif;
 } */
 
+=======
+}
+
+.plan__feature {
+	margin: 8px 0;
+}
+
+#key-features {
+	background: #ff1b68;
+	margin-top: 80px;
+	padding: 16px;
+}
+
+#key-features .section-title {
+	color: white;
+	margin: 32px;
+
+}
+
+.key-feature__list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.key-feature {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.key-feature__image {
+	background: #ffcede;
+	width: 128px;
+	height: 128px;
+	border: 2px solid #424242;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.key-feature__description {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+>>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
