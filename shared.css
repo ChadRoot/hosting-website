@@ -1,13 +1,5 @@
-* {
-<<<<<<< HEAD
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Montserrat', sans-serif;
-	margin: 0;
-=======
-  box-sizing: border-box;
+*{
+ box-sizing: border-box;
 }
 
 body {
@@ -34,22 +26,16 @@ body {
 
 .button:focus {
 	outline: none;
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 .main-header {
 	width: 100%;
-<<<<<<< HEAD
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #2ddf5c;
-	padding: 8px 16px;
-	z-index: 1;
-=======
 	background-color: lightgreen;
 	padding: 8px 16px;
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
+	display: inline-block;
 }
 
 .main-header > div {
@@ -58,35 +44,22 @@ body {
 }
 
 .main-header__brand {
-<<<<<<< HEAD
-	color: #0e4f1f;
-	text-decoration: none;
 	font-weight: bold;
+	color: darkgreen;
+	text-decoration: none;
 	font-size: 22px;
 	height: 22px;
-	/* width: 20px; */
-	display: inline-block
+	display: inline-block;
 }
 
 .main-header__brand img {
 	height: 100%;
-	/* width: 100%; */
-=======
-	font-weight: bold;
-	color: darkgreen;
-	text-decoration: none;
-	font-size: 20px;
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 .main-nav {
 	display: inline-block;
 	text-align: right;
-<<<<<<< HEAD
 	width: calc(100% - 74px);
-=======
-	width: calc(100% - 75px);
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 	vertical-align: middle;
 }
 
@@ -101,18 +74,6 @@ body {
 	margin: 0 16px;
 }
 
-<<<<<<< HEAD
-.main-nav__item a {
-	text-decoration: none;
-	color: #0e4f1f;
-	font-weight: bold;
-	padding: 3px 0;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-	color: white;
-=======
 /* alternatively add a class to link */
 .main-nav__item a {
 	color: darkgreen;
@@ -131,22 +92,14 @@ body {
 .main-nav__item a:hover ,
 .main-nav__item a:active {
 	color: azure;
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 	border-bottom: 5px solid white;
 }
 
 .main-nav__item--cta a {
-<<<<<<< HEAD
-	color: white;
-	background: #ff1b68;
-	padding: 8px 16px;
-	border-radius: 8px;
-=======
 	color: azure;
 	background: #ff1b68;
 	border-radius: 8px;
 	padding: 8px 16px;
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 .main-nav__item--cta a:hover,
@@ -159,11 +112,7 @@ body {
 .main-footer {
 	background: black;
 	padding: 32px;
-<<<<<<< HEAD
 	margin-top: 48px;
-=======
-	margin-top: 48px;S
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
 }
 
 .main-footer__links {
@@ -186,7 +135,6 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
 	color: #ccc;
-<<<<<<< HEAD
 }
 
 .button {
@@ -209,6 +157,3 @@ body {
 .button:focus {
 	outline: none;
 }
-=======
-}
->>>>>>> bab49ad59e01e0f1f980d81f3cdc83646c66b702
