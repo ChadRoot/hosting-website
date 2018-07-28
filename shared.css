@@ -7,6 +7,11 @@ body {
 	margin: 0px;
 }
 
+main {
+	min-height: calc(100vh - 3.5rem - 8rem)
+	margin-top: 3.5rem;
+}
+
 .backdrop {
 	position: fixed;
 	display: none;
@@ -67,7 +72,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: lightgreen;
+	background-color: #2ddf5c;
 	padding: 0.5rem 1rem;
 	display: inline-block;
 	z-index: 300;
@@ -80,15 +85,15 @@ body {
 
 .main-header__brand {
 	font-weight: bold;
-	color: darkgreen;
+	color: #0e4f1f;
 	text-decoration: none;
-	font-size: 1.5rem;
+	height: 2.5rem;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .main-header__brand img {
-	height: 2.5rem;
+	height: 100%;
 	/* width: 100% */
 }
 
@@ -169,7 +174,7 @@ body {
 .mobile-nav {
 	display: none;
 	position: fixed;
-	z-index: 101;
+	z-index: 301;
 	top: 0;
 	left: 0;
 	background: white;

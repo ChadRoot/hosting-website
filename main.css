@@ -1,7 +1,7 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
 	url("https://viralhare.com/wp-content/uploads/2018/05/freedom.jpg") center/cover no-repeat border-box,
-    #ff1b68;
+	 #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -12,7 +12,6 @@
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
   /* border: 5px dashed red; */
   position: relative;
 }
@@ -25,15 +24,11 @@
 	left: 3%;
 	font-size: 1.6rem;
 }
-	
-	#product-overview h1 {
-		font-size: 5rem;
-	}
-}
 
 .section-title {
 	color: #2ddf5c;
 	text-align: center;
+	font-size: 2rem;
 }
 
 .plan {
@@ -47,7 +42,7 @@
 .plan__annotation {
 	background-color: white;
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-	color: #2ddf5c;
+	color: #0e4f1f;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 }
@@ -168,20 +163,15 @@
 	border-color: #ff5454;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
 	#product-overview {
 		height: 40vh;
 		background-position: 50% 25%;
 	}
-	
+
 	#product-overview h1 {
 		font-size: 3rem;
 	}
-}
-
-.section-title {
-	color: #2ddf5c;
-	text-align: center;
 }
 
 @media (min-width: 40rem) {
@@ -209,11 +199,11 @@
 		width: 100%
 	}
 
-	/* .key-feature {
+	.key-feature {
 		display: inline-block;
 		width: 30%;
 		min-width: 13rem;
 		max-width: 25rem;
 		vertical-align: top;
-	} */
+	}
 }
